@@ -62,12 +62,12 @@ class Rover  {
     //OUTPUT POSITION OF THE ROVERS
     //when the rover does not fall over the grid
     getPosition() {
-        return `${this.x} ${this.y} ${this.direction}// `;
+        return `${this.x} ${this.y} ${this.direction} `;
     }
 
     //when the rover falls over the grid
     getFallenPosition() {
-        return `${this.x} ${this.y} ${this.direction} LOST// `;
+        return `${this.x} ${this.y} ${this.direction} LOST `;
     }
 }
 

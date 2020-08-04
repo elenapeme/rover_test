@@ -32,6 +32,12 @@ All instruction strings will be less than 100 characters in length.
 npm install
 ```
 
+## How it works
+
+```
+npm run start
+```
+
 ## Dependencies
 
 - Readline (the user is able to add input)
@@ -40,4 +46,5 @@ npm install
 ## Things to improve in the future
 
 - More tests
-- Cleaned output
+- Cleaned output and input as well
+- Refactor code
